@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/1.5 sans-serif;
+  font: normal 100%/1.5 Noto Sans, sans-serif;
 }
 
 -moz-text-size-adjust: 100%;
@@ -22,14 +22,113 @@ text-size-adjust: 100%;
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.img-flex {
+  background-color: #e5c30a;
+}
+
+@media only screen and (min-width: 20em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3rem;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 9em;
+    margin-top: 2rem:;
+    padding-top: 1.4rem;
+  }
+
+  .wrapper {
+    max-height: 24em;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3rem;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 9em;
+    margin-top: 2rem:;
+    padding-top: 1.4rem;
+  }
+
+  .wrapper {
+    max-height: 24em;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4rem;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 5em;
+    margin-top: 0:;
+    padding: 1.3rem;
+  }
+
+  .section-letter {
+    float: left;
+  }
+
+  .section-icon {
+    float: right;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .section-body {
+    margin-top: 1.3rem;
+}
+
+  .wrapper {
+    background-color: #e5c30a;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+}
+
 font-family: 'Noto Sans', sans-serif;
 
 Typefaces: Noto Sans
 Text sizes: 1.5rem
-Colours: #e5c30a
 Paddings: 1.3rem, 1rem
 Margins: 1.4rem
 Maximum width: 45em
-Expected class names: .img-flex, .wrapper, .section-letter, .section-icon, .section-body
-Standard media query widths: 25em, 38em, 60em, 90em
-Standard text sizes & line heights: 100%/1.3, 110%/1.4, 120%/1.5, 130%/1.5
