@@ -1,0 +1,35 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font: normal 100%/1.5 sans-serif;
+}
+
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+font-family: 'Noto Sans', sans-serif;
+
+Typefaces: Noto Sans
+Text sizes: 1.5rem
+Colours: #e5c30a
+Paddings: 1.3rem, 1rem
+Margins: 1.4rem
+Maximum width: 45em
+Expected class names: .img-flex, .wrapper, .section-letter, .section-icon, .section-body
+Standard media query widths: 25em, 38em, 60em, 90em
+Standard text sizes & line heights: 100%/1.3, 110%/1.4, 120%/1.5, 130%/1.5
