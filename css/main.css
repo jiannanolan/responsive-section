@@ -28,7 +28,7 @@ section {
 }
 
 .wrapper {
-  margin: 0;
+  margin: 0 auto;
   max-width: 45em;
 }
 
@@ -67,7 +67,6 @@ img {
 
   img {
     display: inline-block;
-    max-width: 9em;
     margin-top: 0;
     padding-top: 1.4rem;
   }
@@ -76,6 +75,23 @@ img {
     max-height: 24em;
     overflow: hidden;
     position: relative;
+  }
+
+  .section-icon {
+    max-width: 8em;
+  }
+
+  .section-letter {
+    max-width: 8em;
+  }
+
+  .section-body {
+    padding-left: 1rem;
+    padding-top: 0;
+  }
+
+  h2 {
+    margin: 0;
   }
 }
 
